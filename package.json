@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node --disable-warning=ExperimentalWarning app.js"
   },
   "dependencies": {
-    "playwright": "^1.57.0"
+    "playwright": "^1.57.0",
+    "undici": "^7.8.0"
   },
   "engines": {
     "node": ">=14"
